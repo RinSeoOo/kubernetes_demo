@@ -106,11 +106,11 @@
 
   5. 도커 push (tag 맞는지 확인!)
 
-     `docker push symoondocker/db:1.2`
+     `docker push symoondocker/app_db:1.0`
      
-     `docker push symoondocker/front:1.2`
+     `docker push symoondocker/front:1.3`
      
-     `docker push symoondocker/back:1.2`
+     `docker push symoondocker/back:1.3`
      
 - ### Kubernetes (./k8s)
 
