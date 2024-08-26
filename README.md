@@ -73,8 +73,11 @@
 1. MYSQL 파일인 `init.sql` 코드 생성 
 
 2. Dockerfile 생성 후, image 만들고 container에 올리기 
-   - docker image 생성- `docker build -t symoondocker/app_db:1.0 .` : host이름/image이름:tag 
-   - docker container run 하기- `docker container run --name db -d -p 3306:3306 symoondocker/app_db:1.0` : 3306(port 번호), db(container 이름) 
+   - docker image 생성- `docker build -t symoondocker/app_db:1.0 .` : host이름/image이름:tag
+     
+   - docker container run 하기- `docker container run --name db -d -p 3306:3306 symoondocker/app_db:1.0` : 3306(port 번호), db(container 이름)
+
+   도커 허브 주소: https://hub.docker.com/u/symoondocker
 
 3. MYSQL Workbench를 사용하여 연결 확인
 
